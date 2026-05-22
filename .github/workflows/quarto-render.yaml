@@ -29,7 +29,7 @@ jobs:
 
       - uses: r-lib/actions/setup-renv@v2
         env:
-          RENV_CONFIG_REPOS_OVERRIDE: https://packagemanager.posit.co/cran/__linux__/jammy/2025-07-15
+          RENV_CONFIG_REPOS_OVERRIDE: https://packagemanager.posit.co/cran/__linux__/jammy/2025-08-06
 
       - name: Install tinytex via R
         run: |
