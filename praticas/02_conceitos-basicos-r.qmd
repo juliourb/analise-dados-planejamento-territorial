@@ -121,6 +121,38 @@ vetor_misto
 
 No geral, podemos converter dados sem perder informação seguindo essa ordem: Lógico \> Inteiro \> Numérico \> Texto.
 
+### Matrizes
+
+As matrizes expandem a ideia dos vetores para duas dimensões: linhas e colunas. Assim como os vetores, uma matriz armazena apenas um único tipo de dado (por exemplo, apenas números).
+
+Antes de criar uma matriz, vale conhecer o operador `:`, que gera uma sequência de números inteiros. Por exemplo, `1:6` cria um vetor com os números de 1 a 6:
+
+```{r}
+1:6
+```
+
+Podemos criar uma matriz com a função `matrix()`, indicando o número de linhas (`nrow`) e de colunas (`ncol`):
+
+```{r}
+matrix(1:6, nrow = 2, ncol = 3)
+```
+
+Também é possível construir uma matriz a partir de vetores que já criamos. A função `rbind()` (de *row bind*) combina os vetores como linhas, enquanto `cbind()` (de *column bind*) os combina como colunas:
+
+```{r}
+populacao <- c(100, 250, 180)
+domicilios <- c(40, 95, 70)
+
+rbind(populacao, domicilios)
+cbind(populacao, domicilios)
+```
+
+::: callout-warning
+Vale notar que rbind/cbind herdam os nomes dos vetores como rótulos das linhas/colunas — é uma diferença sutil em relação ao matrix() puro.
+:::
+
+As matrizes são úteis em operações matemáticas e algébricas, mas não serão o foco deste curso. Para saber mais, consulte a [documentação oficial da função `matrix()`](https://stat.ethz.ch/R-manual/R-devel/library/base/html/matrix.html).
+
 ### Data.frames
 
 Os *data.frames* são conjuntos de valores com duas dimensões: linhas e colunas. Porém, diferente do que vimos para as matrizes, os *data.frames* podem armazenar diferentes tipos de dados em cada coluna.
