@@ -169,6 +169,6 @@ Para criar um data.frame, podemos usar a função `data.frame()`. Entretanto, o 
 
 ## Materiais complementares
 
--   Materiais do curso [Introdução à análise de dados no R](https://ipeadata-lab.github.io/curso_r_intro_202409/):
-    -   [Diretório de trabalho e projetos](https://ipeadata-lab.github.io/curso_r_intro_202409/01_1_rproj.html)
-    -   [Linguagem R](https://ipeadata-lab.github.io/curso_r_intro_202409/02_conceitos_basicos_r.html)
+- Materiais do curso [Introdução à análise de dados no R](https://ipeadata-lab.github.io/curso_r_intro_202409/):
+  - [Diretório de trabalho e projetos](https://ipeadata-lab.github.io/curso_r_intro_202409/01_1_rproj.html)
+  - [Linguagem R](https://ipeadata-lab.github.io/curso_r_intro_202409/02_conceitos_basicos_r.html)
