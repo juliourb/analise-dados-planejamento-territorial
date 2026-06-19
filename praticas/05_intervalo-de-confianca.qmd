@@ -66,7 +66,7 @@ glimpse(dados)
 
 ## Conhecendo os dados
 
-Vamos começar visualizando a distribuição das alturas de toda a amostra com um histograma:
+Primeiro vamos começar visualizando a distribuição das alturas de toda a amostra com um histograma:
 
 ```{r}
 dados |>
